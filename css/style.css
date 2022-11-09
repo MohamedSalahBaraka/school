@@ -1,0 +1,99 @@
+/* global */
+svg path{
+    fill: currentColor;
+}
+.nav-svgs{
+    height: 30px;
+}
+.nav-text{
+    font-size: 2rem;
+}
+/* colors */
+.color-1{
+    color: #ed3f6a;
+}
+.color-2{
+    color: #f3f2c8;
+}
+.color-3{
+    color: #5f6037;
+}
+.color-4{
+    color: #c1c9ff;
+}
+.color-5{
+    color: #e2865f;
+}
+/* end colors */
+/* backgrounds */
+.bg-1 {
+    background-color: #ed3f6a;
+}
+.bg-2 {
+    background-color: #f3f2c8;
+}
+.bg-3 {
+    background-color: #5f6037;
+}
+.bg-4 {
+    background-color: #c1c9ff;
+}
+.bg-5 {
+    background-color: #e2865f;
+}
+/* end backgrounds */
+/* end glibals */
+/* header */
+/* navbar */
+.brand{
+    position: fixed;
+    z-index: 1100;
+    width: 20vw;
+    text-align: center;
+}
+.nav-text{
+    font-size: 1.5rem;
+}
+main {
+    margin-top: 5vh;
+}
+@media screen and (max-width:999px){
+    .brand{
+        width: 40vw;
+    }
+    .navbar-collapse{
+        margin-top: 10vw;
+    }
+}
+@media screen and (max-width:380px){
+    .brand {
+            width: 60vw;
+        }
+}
+/* end navbar */
+/* end header */
+/* main */
+.carousel-image {
+    margin-top: 65px;
+    height: 75vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+}
+.card-image-top{
+    height: 45vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (max-width:750px) {
+    .carousel-image {
+        height: 50vh;
+    }
+}
+/* end main */
+/* footer */
+.footer-svg{
+    height: 100px;
+}
+/* end footer */
